@@ -1,3 +1,25 @@
-section{
-    background: red;
+
+body{
+    font-family: 'Montserrat', sans-serif;
 }
+
+
+#product-view{
+    background: violet;
+}
+
+.section-title{
+    color:#2ddf5c;
+    
+}
+
+/* Combinator 
+under h1 tag instance of id or class its combine multiple selector */
+/*becouse of it has higher priority */
+#product-view h1 {
+    color: rgb(237, 241, 237);
+    font-family:'Anton',sans-serif;
+}
+/* h1{
+    font-family: sans-serif;
+} */

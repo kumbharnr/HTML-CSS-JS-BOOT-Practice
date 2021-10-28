@@ -1,0 +1,37 @@
+descendant selector :
+its matches all that are descendant of specified element.
+example :
+select all <p> tag element inside <div> element.
+div p{
+    background:red;
+}
+
+child selector (>):
+all element that are children of specified element.
+example:
+select all <p> element that children of a <div> element.
+
+div>p{
+    background:red;
+}
+
+adjacent sibling (+):
+used to select an element that is directly after another specified element
+sibling must have the same parent element and adjacent means immediatly following.
+example:
+select the first <p> element that are placed immediatly after <div> element
+div +p{
+    background:red;
+}
+
+general sibling (~):
+select all elements that are next sibling of specified element
+example:
+select <P>element that are next sibling of <div> element
+div~p{
+    color:red;
+}
+
+
+
+
